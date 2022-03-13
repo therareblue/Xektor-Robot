@@ -21,7 +21,7 @@ class MOTORI:
 '''
 
 def move(left, right): #continuous move untill a stop function is sent
-    stepup(left, right, dur=255) #when duration is set to 255, it will drive continuously, even if main computer stops
+    step(left, right, dur=255) #when duration is set to 255, it will drive continuously, even if main computer stops
     '''with SMBus(1) as bus:
         answer = bus.read_byte(addr)
     print(f"Answer from the slave: {answer}")'''
